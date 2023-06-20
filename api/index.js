@@ -9,7 +9,17 @@ app.use(cors());
 const PORT = process.env.API_PORT;
 
 app.get('/api/test', (req,res) => {
-  res.json('Hello world ' + Date.now());
+  // Use of Date.now() method
+  let date = Date(Date.now());
+
+  // Converting the number of millisecond
+  // in date string
+  let dateString = date.toString()
+
+  // Printing the current date
+  console.log()
+
+  res.json(` ${dateString}`);
 });
 
 app.listen(PORT, function(err){
