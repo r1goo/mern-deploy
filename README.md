@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Commands used
+
+- yarn create react-app .
+
+## runs
+. at '/api'
+- nodemon index.js
+
+
+## Dependencies
+yarn add express
+
 ## Available Scripts
 
 In the project directory, you can run:
