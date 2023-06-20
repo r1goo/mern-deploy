@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <button onClick={fetchInfo}>fetch info from api</button>
-      <div>result: </div>
+      <div>Date: {result}</div>
     </div>
   );
 }
